@@ -139,7 +139,7 @@
 	<string>GitHub Repo: https://github.com/epilande/alfred-password-generator
 
 Command:
-`pw {length}` - Generate password with `{length}` characters (defaults to 16).</string>
+`pw {length}` - Generate password with `{length}` characters. If `{length}` not specified, `defaultLength` will be used.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1C1236B0-F0F6-4EF7-BBDF-3B05247A4DBC</key>
@@ -163,6 +163,17 @@ Command:
 			<key>ypos</key>
 			<integer>75</integer>
 		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>defaultLength</key>
+		<string>16</string>
+		<key>digits</key>
+		<string>0123456789</string>
+		<key>letters</key>
+		<string>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+		<key>punctuation</key>
+		<string>!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[]^_{\|}~</string>
 	</dict>
 	<key>version</key>
 	<string>1.0.0</string>
