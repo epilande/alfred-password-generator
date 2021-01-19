@@ -136,7 +136,10 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>GitHub Repo: https://github.com/epilande/alfred-password-generator
+
+Command:
+`pw {length}` - Generate password with `{length}` characters (defaults to 16).</string>
 	<key>uidata</key>
 	<dict>
 		<key>1C1236B0-F0F6-4EF7-BBDF-3B05247A4DBC</key>
@@ -161,7 +164,9 @@
 			<integer>75</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/epilande/alfred-prettier-clipboard</string>
 </dict>
 </plist>
